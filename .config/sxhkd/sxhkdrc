@@ -7,8 +7,8 @@ super + Return
 	alacritty
 
 # program launcher
-super + @space
-	dmenu_run
+super + space
+	rofi -no-lazy-grub -show drun -modi run,drun,window
 
 # make sxhkd reload its configuration files:
 super + Escape
