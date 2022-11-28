@@ -23,5 +23,5 @@ if [ -f "$usermodmap" ]; then
   xmodmap "$usermodmap"
 fi
 
-picom &
+/usr/bin/picom &
 exec bspwm
